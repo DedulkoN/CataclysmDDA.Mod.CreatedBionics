@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "CreatedBionics",
+    "name": "Created Bionics ",
+    "authors": [ "Dedulko Nikita" ],
+    "maintainers": [ "N/A" ],
+    "description": "Created Bionics from Nick.",
+    "//": ".",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

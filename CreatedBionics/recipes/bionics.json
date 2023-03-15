@@ -1,0 +1,3908 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_flashlight",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "flashlight", 1 ] ],
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "cable", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_power_storage_mkII",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "light_plus_battery_cell", 1 ] ],
+      [ [ "light_battery_cell", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_trickle",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      {
+        "proficiency": "prof_elec_circuits",
+        "time_multiplier": 1.1
+      },
+      {
+        "proficiency": "prof_elec_soldering",
+        "time_multiplier": 1.1
+      },
+      {
+        "proficiency": "prof_elec_integrated_circuits",
+        "time_multiplier": 1.1
+      }
+    ],
+    "components": [
+      [ [ "alternator_bicycle", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+
+  },
+
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_adrenaline",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "adrenaline_injector", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_ads",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "magnetron", 3 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "processor", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_alarm",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "omnicamera", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_armor_arms",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "scrap", 20 ] ],
+      [ [ "cable", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_armor_arms",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "scrap", 20 ] ],
+      [ [ "cable", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_armor_head",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "scrap", 15 ] ],
+      [ [ "cable", 4 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_armor_legs",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "scrap", 30 ] ],
+      [ [ "cable", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_armor_torso",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "scrap", 40 ] ],
+      [ [ "cable", 15 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_batteries",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "receiver", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_blade",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      },
+      {
+        "id": "HAMMER",
+        "level": 3
+      },
+      {
+        "id": "ANVIL",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_bladesmith" }
+    ],
+    "components": [
+      [ [ "scrap", 20 ] ],
+      [ [ "blade", 1 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "motor_tiny", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_shotgun",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [
+        [ "pipe_double_shotgun", 1 ],
+        [ "pipe_shotgun", 1 ],
+        [ "ashot", 1 ],
+        [ "bigun", 1 ],
+        [ "ksg", 1 ],
+        [ "ksg-25", 1 ],
+        [ "mossberg_500", 1 ],
+        [ "mossberg_590", 1 ],
+        [ "mossberg_930", 1 ],
+        [ "remington_870", 1 ],
+        [ "remington_870_breacher", 1 ],
+        [ "remington_870_express", 1 ],
+        [ "revolver_shotgun", 1 ],
+        [ "saiga_12", 1 ],
+        [ "shotgun_d", 1 ],
+        [ "shotgun_s", 1 ],
+        [ "streetsweeper", 1 ],
+        [ "tavor_12", 1 ],
+        [ "winchester_1887", 1 ],
+        [ "winchester_1897", 1 ],
+        [ "slamfire_shotgun", 1 ],
+        [ "slamfire_shotgun_d", 1 ],
+        [ "m26_mass_standalone", 1 ]
+      ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "motor_tiny", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_blindfold",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "lens", 4 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 30 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_blood_anal",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "syringe", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_blood_filter",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "water_purifier", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_cable",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 3 ] ],
+      [ [ "cable", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_carbon",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      },
+      {
+        "id": "HAMMER",
+        "level": 3
+      },
+      {
+        "id": "ANVIL",
+        "level": 3
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" },
+      {
+        "proficiency": "prof_metalworking",
+        "time_multiplier": 10
+      },
+      {
+        "proficiency": "prof_blacksmithing",
+        "time_multiplier": 5
+      }
+    ],
+    "components": [
+      [ [ "scrap", 100 ] ],
+      [ [ "plastic_chunk", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_chain_lightning",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "tazer", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_claws",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "bagh_nakha", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "motor_tiny", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_climate",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [
+        [ "element", 4 ],
+        [ "crude_heating_element", 4 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_cloak",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "omnicamera", 3 ] ],
+      [ [ "small_lcd_screen", 40 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_cqb",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 4 ] ],
+      [ [ "mobile_memory_card", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_dex_enhancer",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 40 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "motor_tiny", 4 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_digestion",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 3 ] ],
+      [ [ "amplifier", 3 ] ],
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "cable", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_earplugs",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [
+        [ "powered_earplugs", 1 ],
+        [ "ear_plugs", 1 ]
+      ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_ears",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "powered_earplugs", 1 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_emp",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "tazer", 3 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_emp_armgun",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "tazer", 3 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 40 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_ethanol",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 3 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "thermos", 1 ] ],
+      [ [ "alternator_bicycle", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_lampoil",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "thermos", 1 ] ],
+      [ [ "alternator_bicycle", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_evap",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "power_supply", 1 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_eye_enhancer",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "lens", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_eye_optic",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [ [ "lens", 4 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_eye_optic",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "leather", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_faraday",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 200 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_fingerhack",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [ [ "electrohack", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_fitnessband",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [ [ "fitness_band", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_flashbang",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 20 ] ],
+      [ [ "flashlight", 10 ] ],
+      [ [ "e_scrap", 30 ] ],
+      [ [ "scrap_aluminum", 5 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "power_supply", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_tattoo_led",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [ [ "flashlight", 3 ] ],
+      [ [ "e_scrap", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_geiger",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "geiger_off", 1 ] ],
+      [ [ "cable", 3 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_gills",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [
+        [ "mask_filter", 1 ],
+        [ "mask_gas", 1 ],
+        [ "mask_gas_xl", 1 ],
+        [ "mask_gas_half", 1 ]
+      ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_ground_sonar",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "e_scrap", 30 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_heat_absorb",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "e_scrap", 50 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "amplifier", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_heatsink",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "e_scrap", 20 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 5 ] ],
+      [ [ "scrap", 100 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_hydraulics",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "e_scrap", 20 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "amplifier", 4 ] ],
+      [
+        [ "jack", 4 ],
+        [ "jack_makeshift", 4 ],
+        [ "jack_small", 4 ]
+      ],
+      [
+        [ "motor_tiny", 4 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_infrared",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "processor", 1 ] ],
+      [ [ "lens", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_int_enhancer",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "processor", 5 ] ],
+      [ [ "RAM", 5 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_laser",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "processor", 1 ] ],
+      [ [ "lens", 4 ] ],
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "e_scrap", 50 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_leukocyte",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "water_purifier", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 50 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_lighter",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "crude_firestarter", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_lockpick",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [
+        [ "picklocks", 1 ],
+        [ "emergency_lockpick", 10 ],
+        [ "crude_picklock", 5 ]
+      ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_magnet",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "magnetron", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_membrane",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "lens", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_memory",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "mobile_memory_card", 4 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_metabolics",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 40 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_meteorologist",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 40 ] ],
+      [ [ "antenna", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_nanobots",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 30 ] ],
+      [ [ "silver_small", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_night",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 50 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_night_vision",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "goggles_nv", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_ods",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "tazer", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_painkiller",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "datura_seed", 30 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_power_armor_interface",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "lens", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 25 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_power_armor_interface_mkII",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "lens", 1 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 60 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "e_scrap", 35 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_power_storage",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [
+        [ "light_minus_battery_cell", 2 ],
+        [ "light_minus_disposable_cell", 1 ]
+      ],
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "e_scrap", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_probability_travel",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "teleporter", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "e_scrap", 15 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_purifier",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "gasfilter_m", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_radscrubber",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "rebreather_filter", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_razors",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "razor_blade", 10 ] ],
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "e_scrap", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_recycler",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "waterskin", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_remote",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "directional_antenna", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_resonator",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 40 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_scent_mask",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_synaptic_regen",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 40 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_shock",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "tazer", 2 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_shockwave",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "tazer", 1 ] ],
+      [ [ "magnetron", 1 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_speed",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "motor_tiny", 2 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_str_enhancer",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "motor_tiny", 2 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_surgical_razor",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scalpel", 1 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_sunglasses",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "glass_tinted", 2 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_targeting",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 40 ] ],
+      [ [ "targeting_module", 1 ] ],
+      [ [ "e_scrap", 30 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_teleport",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "teleporter", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 15 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_time_freeze",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "motor_tiny", 8 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 40 ] ],
+      [ [ "processor", 4 ] ],
+      [ [ "e_scrap", 80 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_tools",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "multitool", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 15 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_torsionratchet",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [
+        [ "alternator_bicycle", 2 ],
+        [ "alternator_motorbike", 2 ]
+      ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 25 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_jointservo",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "motor_tiny", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 25 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_uncanny_dodge",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "motor_tiny", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "e_scrap", 45 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_ups",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "e_scrap", 45 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_watch",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 15 ] ],
+      [
+        [ "sf_watch", 1 ],
+        [ "silver_watch", 1 ],
+        [ "game_watch", 1 ],
+        [ "wristwatch", 1 ],
+        [ "gold_watch", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_water_extractor",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 15 ] ],
+      [ [ "water_purifier", 1 ] ],
+      [ [ "waterskin", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_fuel_cell_gasoline",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 15 ] ],
+      [ [ "can_drink", 1 ] ],
+      [ [ "alternator_bicycle", 1 ] ],
+      [ [ "1cyl_combustion_small", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_syringe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 15 ] ],
+      [ [ "syringe", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_weight",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "e_scrap", 15 ] ],
+      [ [ "scrap", 40 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_recoil",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "spring_plate", 4 ] ],
+      [ [ "e_scrap", 15 ] ],
+      [ [ "scrap", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bio_pitch_perfect",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ "firstaid", 5 ],
+    "difficulty": 8,
+    "time": "1 h",
+    "reversible": true,
+    "//": "CMB",
+    "book_learn": [
+      [ "textbook_electronics", 7 ],
+      [ "textbook_robots", 6 ]
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking",
+        "time_multiplier": 1.1
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
+    ],
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 15 ] ],
+      [ [ "lens", 2 ] ]
+    ]
+  }
+
+
+
+]
