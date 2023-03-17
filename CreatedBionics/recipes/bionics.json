@@ -16,7 +16,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
-    "using": [ [ "soldering_standard", 10 ] ],
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -35,7 +35,8 @@
       { "proficiency": "prof_intro_biology" },
       {
         "proficiency": "prof_wp_cyborg",
-        "time_multiplier": 1.5
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
       },
       { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_elec_semiconductors" },
@@ -76,7 +77,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -115,18 +123,16 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
       {
-        "proficiency": "prof_elec_circuits",
-        "time_multiplier": 1.1
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
       },
-      {
-        "proficiency": "prof_elec_soldering",
-        "time_multiplier": 1.1
-      },
-      {
-        "proficiency": "prof_elec_integrated_circuits",
-        "time_multiplier": 1.1
-      }
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" }
     ],
     "components": [
       [ [ "alternator_bicycle", 1 ] ],
@@ -165,7 +171,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -204,7 +217,15 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      { "proficiency": "prof_electromagnetics" },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -243,7 +264,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -286,9 +314,26 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      {
+        "proficiency": "prof_wp_syn_armored",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_armorsmithing" },
+      { "proficiency": "prof_case_hardening" },
+      { "proficiency": "prof_quenching" }
     ],
     "components": [
       [ [ "scrap", 20 ] ],
@@ -323,9 +368,26 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      {
+        "proficiency": "prof_wp_syn_armored",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_armorsmithing" },
+      { "proficiency": "prof_case_hardening" },
+      { "proficiency": "prof_quenching" }
     ],
     "components": [
       [ [ "scrap", 20 ] ],
@@ -360,9 +422,26 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      {
+        "proficiency": "prof_wp_syn_armored",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_armorsmithing" },
+      { "proficiency": "prof_case_hardening" },
+      { "proficiency": "prof_quenching" }
     ],
     "components": [
       [ [ "scrap", 15 ] ],
@@ -397,9 +476,26 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      {
+        "proficiency": "prof_wp_syn_armored",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_armorsmithing" },
+      { "proficiency": "prof_case_hardening" },
+      { "proficiency": "prof_quenching" }
     ],
     "components": [
       [ [ "scrap", 30 ] ],
@@ -434,9 +530,26 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      {
+        "proficiency": "prof_wp_syn_armored",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_armorsmithing" },
+      { "proficiency": "prof_case_hardening" },
+      { "proficiency": "prof_quenching" }
     ],
     "components": [
       [ [ "scrap", 40 ] ],
@@ -471,7 +584,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -518,9 +638,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
     ],
     "components": [
@@ -560,9 +690,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_gunsmithing_basic" },
+      { "proficiency": "prof_gunsmithing_improv" }
+
     ],
     "components": [
       [
@@ -624,7 +764,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -663,7 +810,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -702,7 +856,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -747,17 +908,26 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
-      { "proficiency": "prof_elec_circuits" },
-      { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_intro_biology" },
       {
-        "proficiency": "prof_metalworking",
-        "time_multiplier": 10
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
       },
       {
-        "proficiency": "prof_blacksmithing",
-        "time_multiplier": 5
-      }
+        "proficiency": "prof_wp_syn_armored",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_armorsmithing" },
+      { "proficiency": "prof_case_hardening" },
+      { "proficiency": "prof_quenching" }
     ],
     "components": [
       [ [ "scrap", 100 ] ],
@@ -792,9 +962,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_gunsmithing_basic" },
+      { "proficiency": "prof_gunsmithing_improv" },
+      { "proficiency": "prof_shock_weapons" }
     ],
     "components": [
       [ [ "tazer", 1 ] ],
@@ -831,7 +1011,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -871,7 +1058,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -915,7 +1109,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -957,7 +1158,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -998,7 +1206,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1039,7 +1254,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1078,7 +1300,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1118,9 +1347,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_shock_weapons" },
+      { "proficiency": "prof_gunsmithing_basic" },
+      { "proficiency": "prof_gunsmithing_improv" }
     ],
     "components": [
       [ [ "plastic_chunk", 4 ] ],
@@ -1158,9 +1397,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_shock_weapons" },
+      { "proficiency": "prof_gunsmithing_basic" },
+      { "proficiency": "prof_gunsmithing_improv" }
     ],
     "components": [
       [ [ "plastic_chunk", 4 ] ],
@@ -1198,9 +1447,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_basic_engines" }
     ],
     "components": [
       [ [ "power_supply", 3 ] ],
@@ -1240,9 +1497,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_basic_engines" }
     ],
     "components": [
       [ [ "power_supply", 1 ] ],
@@ -1282,7 +1547,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1322,7 +1594,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1360,7 +1639,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1400,7 +1686,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1439,9 +1732,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_armorsmithing" }
     ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],
@@ -1477,9 +1780,20 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_blacksmithing" },
+      { "proficiency": "prof_toolsmithing" }
+
     ],
     "components": [
       [ [ "plastic_chunk", 1 ] ],
@@ -1517,16 +1831,25 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_blacksmithing" },
+      { "proficiency": "prof_toolsmithing" }
     ],
     "components": [
       [ [ "plastic_chunk", 1 ] ],
       [ [ "cable", 2 ] ],
       [ [ "processor", 1 ] ],
-      [ [ "scrap", 2 ] ],
-      [ [ "fitness_band", 1 ] ]
+      [ [ "scrap", 2 ] ]
     ]
   },
   {
@@ -1557,9 +1880,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_shock_weapons" }
     ],
     "components": [
       [ [ "plastic_chunk", 1 ] ],
@@ -1601,7 +1932,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1642,7 +1980,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1681,7 +2026,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1725,7 +2077,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1764,9 +2123,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_shock_weapons" }
     ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],
@@ -1805,7 +2172,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1847,7 +2221,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1896,7 +2277,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1936,7 +2324,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -1976,9 +2371,20 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_gunsmithing_basic" },
+      { "proficiency": "prof_gunsmithing_improv" },
+      { "proficiency": "prof_gem_setting" }
+
     ],
     "components": [
       [ [ "processor", 1 ] ],
@@ -2016,7 +2422,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2056,7 +2469,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2096,9 +2516,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_blacksmithing" },
+      { "proficiency": "prof_toolsmithing" }
     ],
     "components": [
       [
@@ -2140,9 +2570,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_electromagnetics" }
     ],
     "components": [
       [ [ "magnetron", 1 ] ],
@@ -2180,7 +2618,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2220,7 +2665,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2260,7 +2712,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2299,7 +2758,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2339,7 +2805,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2379,7 +2852,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2418,7 +2898,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2458,9 +2945,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_shock_weapons" }
     ],
     "components": [
       [ [ "tazer", 1 ] ],
@@ -2498,7 +2993,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2538,7 +3040,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      {
+        "proficiency": "prof_wp_skeleton",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.5
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2578,7 +3092,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
+      {
+        "proficiency": "prof_wp_skeleton",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.5
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2618,7 +3144,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2660,7 +3193,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2700,7 +3240,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2740,7 +3287,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2780,9 +3334,20 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_fine_metalsmithing" },
+      { "proficiency": "prof_blacksmithing" },
+      { "proficiency": "prof_bladesmith" }
     ],
     "components": [
       [ [ "razor_blade", 10 ] ],
@@ -2819,7 +3384,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2859,7 +3431,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2899,9 +3478,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_electromagnetics" }
     ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],
@@ -2938,7 +3525,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -2977,7 +3571,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3016,9 +3617,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_shock_weapons" }
     ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],
@@ -3056,9 +3665,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_shock_weapons" }
     ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],
@@ -3097,7 +3714,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3137,7 +3761,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3177,9 +3808,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_blacksmithing" },
+      { "proficiency": "prof_toolsmithing" }
     ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],
@@ -3217,7 +3858,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3256,7 +3904,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3295,7 +3950,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3335,7 +3997,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3375,9 +4044,19 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_blacksmithing" },
+      { "proficiency": "prof_toolsmithing" }
     ],
     "components": [
       [ [ "multitool", 1 ] ],
@@ -3415,9 +4094,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_basic_engines" }
     ],
     "components": [
       [
@@ -3458,7 +4145,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3498,7 +4192,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3538,7 +4239,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3576,7 +4284,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3622,7 +4337,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3663,9 +4385,17 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
-      { "proficiency": "prof_elec_integrated_circuits" }
+      { "proficiency": "prof_elec_integrated_circuits" },
+      { "proficiency": "prof_basic_engines" }
     ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],
@@ -3705,7 +4435,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3745,7 +4482,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3784,7 +4528,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3824,7 +4575,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3864,7 +4622,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
@@ -3903,7 +4668,14 @@
         "proficiency": "prof_plasticworking",
         "time_multiplier": 1.1
       },
+      { "proficiency": "prof_intro_biology" },
+      {
+        "proficiency": "prof_wp_cyborg",
+        "time_multiplier": 1.5,
+        "fail_multiplier": 1.2
+      },
       { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_elec_semiconductors" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_integrated_circuits" }
     ],
