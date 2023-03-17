@@ -3,9 +3,9 @@
     "type": "MOD_INFO",
     "id": "CreatedBionics",
     "name": "Created Bionics ",
-    "authors": [ "Dedulko Nikita" ],
+    "authors": [ "Dedulko Nikita 'DedulkoN'" ],
     "maintainers": [ "N/A" ],
-    "description": "Created Bionics from Nick.",
+    "description": "Created Bionics.",
     "//": ".",
     "category": "rebalance",
     "dependencies": [ "dda" ]
