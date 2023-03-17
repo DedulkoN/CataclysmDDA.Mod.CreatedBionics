@@ -66,6 +66,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -116,6 +117,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -168,6 +170,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -218,6 +221,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -269,6 +273,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -319,6 +324,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 8 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -367,8 +377,7 @@
       { "proficiency": "prof_case_hardening" },
       { "proficiency": "prof_quenching" }
     ],
-    "components": [
-      [ [ "scrap", 20 ] ],
+    "components": [      
       [ [ "cable", 5 ] ]
     ]
   },
@@ -389,6 +398,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 10 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -433,8 +447,7 @@
       { "proficiency": "prof_case_hardening" },
       { "proficiency": "prof_quenching" }
     ],
-    "components": [
-      [ [ "scrap", 20 ] ],
+    "components": [     
       [ [ "cable", 1 ] ]
     ]
   },
@@ -455,6 +468,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 7 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -499,8 +517,7 @@
       { "proficiency": "prof_case_hardening" },
       { "proficiency": "prof_quenching" }
     ],
-    "components": [
-      [ [ "scrap", 15 ] ],
+    "components": [    
       [ [ "cable", 4 ] ]
     ]
   },
@@ -521,6 +538,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 12 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -565,8 +587,7 @@
       { "proficiency": "prof_case_hardening" },
       { "proficiency": "prof_quenching" }
     ],
-    "components": [
-      [ [ "scrap", 30 ] ],
+    "components": [      
       [ [ "cable", 10 ] ]
     ]
   },
@@ -587,6 +608,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 20 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -632,7 +658,7 @@
       { "proficiency": "prof_quenching" }
     ],
     "components": [
-      [ [ "scrap", 40 ] ],
+      [ [ "scrap", 10 ] ],
       [ [ "cable", 15 ] ]
     ]
   },
@@ -653,6 +679,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -703,6 +730,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 5 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -741,8 +773,7 @@
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
     ],
-    "components": [
-      [ [ "scrap", 20 ] ],
+    "components": [      
       [ [ "blade", 1 ] ],
       [ [ "plastic_chunk", 4 ] ],
       [ [ "cable", 30 ] ],
@@ -767,6 +798,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -845,6 +877,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -895,6 +928,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -945,6 +979,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -993,6 +1028,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 50 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1038,7 +1078,7 @@
       { "proficiency": "prof_quenching" }
     ],
     "components": [
-      [ [ "scrap", 100 ] ],
+      [ [ "scrap", 5 ] ],
       [ [ "plastic_chunk", 10 ] ]
     ]
   },
@@ -1059,6 +1099,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1112,6 +1153,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 3 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1175,6 +1221,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1230,6 +1277,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1283,6 +1331,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1335,6 +1384,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1387,6 +1437,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1437,6 +1488,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1488,6 +1540,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1542,6 +1595,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1596,6 +1650,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1650,6 +1705,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1704,6 +1760,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1755,6 +1812,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1804,6 +1862,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1855,6 +1914,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1905,6 +1965,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 2 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -1973,6 +2038,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 1 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2022,8 +2092,7 @@
     "components": [
       [ [ "plastic_chunk", 1 ] ],
       [ [ "cable", 2 ] ],
-      [ [ "processor", 1 ] ],
-      [ [ "scrap", 2 ] ],
+      [ [ "processor", 1 ] ],     
       [ [ "electrohack", 1 ] ]
     ]
   },
@@ -2044,6 +2113,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 3 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2092,8 +2166,7 @@
     "components": [
       [ [ "plastic_chunk", 1 ] ],
       [ [ "cable", 2 ] ],
-      [ [ "processor", 1 ] ],
-      [ [ "scrap", 2 ] ]
+      [ [ "processor", 1 ] ]
     ]
   },
   {
@@ -2113,6 +2186,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2169,6 +2243,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2221,6 +2296,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2271,6 +2347,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2326,6 +2403,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2376,6 +2454,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2423,6 +2502,7 @@
     "difficulty": 8,
     "time": "1 h",
     "reversible": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "//": "CMB",
     "book_learn": [
       [ "textbook_electronics", 7 ],
@@ -2482,6 +2562,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2542,6 +2623,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2593,6 +2675,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2644,6 +2727,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2703,6 +2787,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2754,6 +2839,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2805,6 +2891,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 1 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2879,6 +2970,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2931,6 +3023,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -2982,6 +3075,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3033,6 +3127,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3083,6 +3178,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3134,6 +3230,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3185,6 +3282,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3235,6 +3333,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3286,6 +3385,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3338,6 +3438,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3389,6 +3490,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3445,6 +3547,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3501,6 +3604,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3551,6 +3655,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3602,6 +3707,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3653,6 +3759,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3704,6 +3811,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 2 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3770,6 +3882,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3821,6 +3934,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3872,6 +3986,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3923,6 +4038,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -3973,6 +4089,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4023,6 +4140,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4075,6 +4193,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4128,6 +4247,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4179,6 +4299,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4230,6 +4351,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 2 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4300,6 +4426,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4350,6 +4477,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4400,6 +4528,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4451,6 +4580,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4502,6 +4632,11 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [
+      [ "soldering_standard", 20 ],
+      [ "blacksmithing_standard", 10 ],
+      [ "steel_standard", 2 ]
+    ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4572,6 +4707,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4631,6 +4767,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4682,6 +4819,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4733,6 +4871,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4782,6 +4921,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4839,6 +4979,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4891,6 +5032,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4945,6 +5087,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -4996,6 +5139,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -5046,6 +5190,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -5097,6 +5242,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -5148,6 +5294,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -5198,6 +5345,7 @@
       [ "textbook_robots", 6 ]
     ],
     "autolearn": true,
+    "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [
       {
         "id": "SCREW",
@@ -5231,7 +5379,5 @@
       [ [ "e_scrap", 5 ] ]
     ]
   }
-
-
 
 ]
